@@ -6,4 +6,20 @@
         <UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Npgsql" Version="4.1.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="AddEntity.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="ViewEntity.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="AddParameters.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
 </Project>
